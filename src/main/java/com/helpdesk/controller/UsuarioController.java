@@ -1,5 +1,6 @@
 package com.helpdesk.controller;
 
+import com.helpdesk.dto.UsuarioDTO;
 import com.helpdesk.model.Usuario;
 import com.helpdesk.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,7 +32,7 @@ public class UsuarioController {
     }
 
     @PostMapping
-    public Usuario criarUsuario(@RequestBody Usuario usuario) {
+    public UsuarioDTO criarUsuario(@RequestBody Usuario usuario) {
         return usuarioService.criarUsuario(usuario);
     }
 

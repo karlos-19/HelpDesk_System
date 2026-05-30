@@ -14,6 +14,7 @@ public class ChamadoService {
     @Autowired
     private ChamadoRepository chamadoRepository;
 
+
     public Chamado criarChamado(Chamado chamado) {
         return chamadoRepository.save(chamado);
     }
