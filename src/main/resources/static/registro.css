@@ -95,11 +95,33 @@ text-align: center;
 }
 
 .login-link a {
-  color: #0077b6;
+  color: #030213;
   text-decoration: none;
   font-weight: 500;
 }
 
 .login-link a:hover {
   text-decoration: underline;
+}
+
+/* ----- Formatação das Caixas de Senhas ----- */
+
+.input-wrap {
+    position: relative;
+    width: 100%;
+}
+
+.input-wrap input {
+    width: 100%;
+}
+
+.toggle-senha {
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #717182;
 }
