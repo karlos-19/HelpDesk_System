@@ -10,6 +10,4 @@ public class UsuarioDTO {
     private String cargo;
     private Role role;
     private String setor;
-
-
 }
